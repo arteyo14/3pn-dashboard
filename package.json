@@ -10,10 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^1.7.9",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sass": "^1.84.0"
+    "sass": "^1.84.0",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.26.0",
@@ -23,6 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "daisyui": "^4.12.23",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
     "jest": "^29.7.0",
