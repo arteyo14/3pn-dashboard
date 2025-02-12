@@ -6,7 +6,7 @@ export default function Example() {
   const { count, increase, decrease, reset } = useCounterStore()
 
   return (
-    <div className="flex flex-col items-center gap-4 p-10">
+    <div className="flex flex-col items-center gap-4 p-10 text-center">
       <h1 className="text-2xl font-bold">Zustand Counter</h1>
       <p className="text-xl">Count: {count}</p>
       <div className="flex gap-2">
