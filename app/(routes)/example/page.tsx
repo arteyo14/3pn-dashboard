@@ -12,19 +12,19 @@ export default function Example() {
       <div className="flex gap-2">
         <button
           onClick={increase}
-          className="px-4 py-2 bg-green-500 text-white rounded"
+          className="px-4 py-2 btn bg-green-500 text-white rounded"
         >
           ➕ INCREASE
         </button>
         <button
           onClick={decrease}
-          className="px-4 py-2 bg-red-500 text-white rounded"
+          className="px-4 py-2 btn bg-red-500 text-white rounded"
         >
           ➖ DECREASE
         </button>
         <button
           onClick={reset}
-          className="px-4 py-2 bg-gray-500 text-white rounded"
+          className="px-4 py-2 btn bg-gray-500 text-white rounded"
         >
           🔄 RESET
         </button>
