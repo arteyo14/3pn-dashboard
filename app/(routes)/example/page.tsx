@@ -1,6 +1,6 @@
 "use client"
 
-import { useCounterStore } from "./store/useCounterStore"
+import { useCounterStore } from "@/modules/example/store/useCounterStore"
 
 export default function Example() {
   const { count, increase, decrease, reset } = useCounterStore()
