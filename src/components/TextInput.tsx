@@ -23,9 +23,9 @@ export default function TextInput({
 }: IProps) {
   return (
     <div className={`gap-1 flex flex-col ${className}`}>
-      <Label label={label} required={required ?? false} />
+      <Label label={label} name={name} required={required ?? false} />
       <input
-        className="input input-bordered w-full bg-white"
+        className="input input-bordered w-full bg-white text-gray-500 font-normal"
         type={type}
         name={name}
         placeholder={placeholder}
