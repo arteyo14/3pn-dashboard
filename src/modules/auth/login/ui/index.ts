@@ -1,3 +1,4 @@
-import LoginCard from "./LoginCard"
+import LoginContainer from "./LoginContainer"
+import LogoComponent from "./Logo"
 
-export { LoginCard }
+export { LoginContainer, LogoComponent }

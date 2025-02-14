@@ -1,9 +1,10 @@
-import { LoginCard } from "@/modules/auth/login/ui"
+import { LoginContainer, LogoComponent } from "@/modules/auth/login/ui"
 
 export default function Login() {
   return (
-    <div className="bg-white h-screen w-screen flex flex-col justify-center items-center">
-      <LoginCard />
+    <div className="grid grid-cols-12 ">
+      <LogoComponent />
+      <LoginContainer />
     </div>
   )
 }
